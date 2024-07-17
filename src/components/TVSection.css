@@ -1,0 +1,39 @@
+.tv-section {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tv-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .tv-content h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .tv-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .tv-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .tv-image {
+    max-width: 100%;
+    height: auto;
+  }
+  

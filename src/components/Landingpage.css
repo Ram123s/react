@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.phone {
+  position: relative;
+  margin-right: 20px;
+}
+
+.phone-image {
+  height: 300px; /* Adjust based on the actual size you need */
+  border-radius: 20px;
+}
+
+.download-status {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.thumbnail {
+  height: 50px; /* Adjust the size accordingly */
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.text {
+  text-align: left;
+}
+
+.downloading {
+  color: #00f;
+}
+
+.text-content {
+  max-width: 500px;
+  text-align: left;
+}
+
+.text-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .phone {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .text-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .text-content p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .phone-image {
+    height: 200px;
+  }
+
+  .thumbnail {
+    height: 40px;
+  }
+
+  .text-content h1 {
+    font-size: 1.25rem;
+  }
+
+  .text-content p {
+    font-size: 0.75rem;
+  }
+}

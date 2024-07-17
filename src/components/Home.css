@@ -1,0 +1,96 @@
+/* Home.css */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/0552717c-9d8c-47bd-9640-4f4efa2de663/537e2c5e-c750-4d4c-9f7a-e66fe93eb977/IN-en-20240701-POP_SIGNUP_TWO_WEEKS-perspective_WEB_b00eeb83-a7e8-4b5b-8ff7-86ed92c51caf_medium.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #eceaea;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+}
+
+.hero h2 {
+  font-size: 1.75rem;
+  margin: 20px 0;
+}
+
+.hero h3 {
+  font-size: 1.25rem;
+  margin: 20px 0;
+}
+
+.hero .email-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.hero .email-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  outline: none;
+  margin-right: 10px;
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero .email-form button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.hero .email-form button:hover {
+  background-color: #f40612;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 2.5rem;
+  }
+
+  .hero h2 {
+      font-size: 1.5rem;
+  }
+
+  .hero h3 {
+      font-size: 1rem;
+  }
+
+  .hero .email-form {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .hero .email-form input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .hero .email-form button {
+      width: 50%;
+      font-size: 1rem;
+      padding: 10px;
+     /* line-height: 20px;  */
+  }
+}

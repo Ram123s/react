@@ -1,0 +1,95 @@
+/* Faq.css */
+
+.faq {
+  background: #000;
+  text-align: center;
+  margin-bottom: 2px;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.accordion-item {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.accordion-title h6 {
+  margin: 0;
+}
+
+.accordion-content {
+  padding: 15px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.email-formm {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.email-formm input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  width: 100%;
+  max-width: 300px;
+  margin-right: 10px;
+}
+
+.email-formm button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  border-radius: 5px;
+}
+
+.email-formm button:hover {
+  background-color: #f40612;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .accordion-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .email-formm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .email-formm input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .email-formm button {
+    width: 50%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+}

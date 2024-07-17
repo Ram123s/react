@@ -1,0 +1,49 @@
+.watch-everywhere {
+  background-color: #000;
+  padding: 50px 0;
+}
+
+.Ram {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Ram h1 {
+  font-size: 2.5rem;
+}
+
+.Ram p {
+  padding-top: 5px;
+  font-size: 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .Ram h1 {
+    font-size: 2rem;
+  }
+
+  .Ram p {
+    font-size: 0.875rem;
+  }
+
+  .watch-everywhere {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .Ram h1 {
+    font-size: 1.75rem;
+  }
+
+  .Ram p {
+    font-size: 0.75rem;
+  }
+
+  .watch-everywhere {
+    padding: 20px 0;
+  }
+}

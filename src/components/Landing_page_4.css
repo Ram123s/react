@@ -1,0 +1,61 @@
+.outlet {
+    background-color: #000;
+    border: 1px solid white;
+    padding: 20px;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .Raj {
+    padding-left: 70px;
+    align-content: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .Raj h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .Raj p {
+    font-size: 1rem;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .Raj {
+      padding-left: 0;
+    }
+  
+    .Raj h1 {
+      font-size: 2rem;
+    }
+  
+    .Raj p {
+      font-size: 0.875rem;
+    }
+  
+    .outlet {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .Raj h1 {
+      font-size: 1.75rem;
+    }
+  
+    .Raj p {
+      font-size: 0.75rem;
+    }
+  
+    .outlet {
+      padding: 10px;
+    }
+  }
+  
